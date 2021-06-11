@@ -1,0 +1,137 @@
+.container{
+    width:100%;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "div1 div1 div1  div2 div3 div4 div5"
+    "div1 div1 div1 div6 div7 div8 div9"
+    "div1 div1 div1 div10 div11 div12 div13";
+  grid-gap: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 10px;
+ 
+}
+
+
+.div1{
+    background-image: url(./Images/issue1.jpg);
+    height: 70vh;
+    width: 40vw;
+    grid-area: div1;
+    color:red;
+    font-size:2rem;
+    padding-left: 2vw;
+  }
+.div2{
+    background-image: url(./Images/issue2.jpg);
+    height: 25vh;
+    width: 10vw;
+    grid-area: div2;
+    color:red;
+    font-size: 10px;
+
+  }
+  .div3{
+    background-image: url(./Images/issue3.jpg);
+    height: 25vh;
+    width: 10vw;
+    grid-area: div3;
+    color:red;
+    font-size: 10px;
+  }
+  .div4{
+    background-image: url(./Images/issue4.jpg);
+    height: 25vh;
+    width: 10vw;
+    grid-area: div4;
+    color:red;
+    font-size: 10px;
+
+  }
+  .div5{
+    background-image: url(./Images/issue5.jpg);
+    height: 25vh;
+    width: 10vw;
+    grid-area: div5;
+    color:red;
+    font-size: 10px;
+
+  }
+ 
+  .div6{
+    background-image: url(./Images/issue6.jpg);
+    height: 25vh;
+    width: 10vw;
+    grid-area: div6;
+    color:red;
+    font-size: 10px;
+
+  }
+  .div7{
+    background-image: url(./Images/issue7.jpg);
+    height: 25vh;
+    width: 10vw;
+    grid-area: div7;
+    color:red;
+    font-size: 10px;
+
+  }
+  .div8{
+    background-image: url(./Images/issue8.jpg);
+    height: 25vh;
+    width: 10vw;
+    grid-area: div8;
+    color:red;
+    font-size: 10px;
+
+  }
+  .div9{
+    background-image: url(./Images/issue9.jpg);
+    height: 25vh;
+    width: 10vw;
+    grid-area: div9;
+    color:red;
+    font-size: 10px;
+
+  }
+  .div10{
+    background-image: url(./Images/issue10.jpg);
+    height: 25vh;
+    width: 10vw;
+    grid-area: div10;
+    color:red;
+    font-size: 10px;
+
+  }
+  .div11{
+    background-image: url(./Images/issue11.jpg);
+    height: 25vh;
+    width: 10vw;
+    grid-area: div11;
+    color:red;
+    font-size: 10px;
+
+  }
+  .div12{
+    background-image: url(./Images/issue12.jpg);
+    height: 25vh;
+    width: 10vw;
+    grid-area: div12;
+    color:red;
+    font-size: 10px;
+
+  }
+  .div13{
+    background-image: url(./Images/issue13.jpg);
+    height: 25vh;
+    width: 10vw;
+    grid-area: div13;
+    color:red;
+    font-size: 10px;
+  }
+
+  .div14{
+    color:red;
+  }
